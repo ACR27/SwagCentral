@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>APIKey</key>
+	<string>eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJhcHBGYW1pbHlJZCI6ImFtem4xLmFwcGxpY2F0aW9uLjA0MjcyNzA0NjIzYjRmNmZiMGU5ZTI4ZTdhNzhlNmI4IiwiaWQiOiIzM2QxMzkzYS1lYjY1LTExZTItYWMyNy1lYjcyYWRkYzA5MjQiLCJhcHBJZCI6ImFtem4xLmFwcGxpY2F0aW9uLWNsaWVudC5hNzA4NGVkN2U2NDk0ZmE2YTM2MTg0NzU5NTM5NmNkMCIsImJ1bmRsZVNlZWRJZCI6ImFtem4uQW1hem9uU3dhZyIsImlzcyI6IkFtYXpvbiIsImJ1bmRsZUlkIjoiYW16bi5BbWF6b25Td2FnIiwidmVyIjoiMiIsImFwcFZhcmlhbnRJZCI6ImFtem4xLmFwcGxpY2F0aW9uLWNsaWVudC5hNzA4NGVkN2U2NDk0ZmE2YTM2MTg0NzU5NTM5NmNkMCIsInR5cGUiOiJBUElLZXkiLCJpYXQiOiIxMzczNjgzMDY2ODMzIiwiY2xpZW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1vYTItY2xpZW50LjFjY2ExZGMwMWI4NzQ3OGFiNGM0YTJiZmEzN2ViZjE3In0=.otwNVwdp3ntw5JCrQxU1K30gR6GBVPliupHesKxx6IBbwuajmfaX1zxggQ0f6gRoL770AW1s5DUYlpTN2EUDv4H4JPCr3+n2yk7kXqxSOw/URV5SFJsvuadnedLs7sOHGwgIbSLoQ+jVw9+ITsvAsSCKVVLkYlW627m1YkrGzsCKqccRYz4yyqA1oTAiePVltR9YR4YRUQg5yph1PtaD4vyTYTPPZlz44o+uC7yVVax4LHDGOFJp3yp6VMDezOhreI3TW4iJ5NYumTfbcPF6cAj/pVkfH9QHfNGrOKlfvvWJXFoUGTe7ChnM25YzEW4jMHxV6TiFfoLhcrm21mxz/Q==</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -31,7 +33,17 @@
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
+		<string>video-camera</string>
+		<string>camera-flash
+</string>
+		<string>front-facing-camera</string>
+		<string>still-camera</string>
+		<string>location-services</string>
 	</array>
+	<key>UIStatusBarHidden</key>
+	<false/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleBlackOpaque</string>
 	<key>UIStatusBarTintParameters</key>
 	<dict>
 		<key>UINavigationBar</key>
@@ -54,6 +66,17 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>amzn.AmazonSwag</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>amzn-amzn.AmazonSwag</string>
+			</array>
+		</dict>
 	</array>
 </dict>
 </plist>

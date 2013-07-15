@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+//#import "AIMobileLib.h"
 
 @implementation AppDelegate
 
@@ -15,6 +16,26 @@
     // Override point for customization after application launch.
     return YES;
 }
+
+
+//
+//- (BOOL)application:(UIApplication *)application
+//            openURL:(NSURL *)url
+//  sourceApplication:(NSString *)sourceApplication
+//         annotation:(id)annotation
+//{
+//    // Pass on the url to the SDK to parse authorization code from the url.
+//    
+//    //BOOL isValidRedirectSignInURL =
+//    //[AIMobileLib handleOpenURL:url sourceApplication:sourceApplication];
+//    //if(!isValidRedirectSignInURL)
+//      //  return NO;
+//    
+//    // App may also want to handle url
+//    return YES;
+//}
+//
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
