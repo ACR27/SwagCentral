@@ -49,6 +49,10 @@
     [swagSwitch addTarget:self
                          action:@selector(pickOne:)
                forControlEvents:UIControlEventValueChanged];
+    [self performSelectorInBackground:@selector(getMySwag) withObject:nil];
+    [self performSelectorInBackground:@selector(getLikedSwag) withObject:nil];
+    [self performSelectorInBackground:@selector(getMyCart) withObject:nil];
+    [self performSelectorInBackground:@selector(getUserInfo) withObject:nil];
 }
 
 
